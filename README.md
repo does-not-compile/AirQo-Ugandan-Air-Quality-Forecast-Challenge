@@ -13,6 +13,7 @@ This challenge was posted on zindi.com with the goal of accurate daily air quali
 
 [Jess](https://github.com/JessFinn), [Matthias](https://github.com/NewFishMH), [Samer](https://github.com/samerzahra), [Sebastian](https://github.com/does-not-compile)
 
+## Link to Miro board [https://miro.com/app/board/uXjVPAMCwts=/]
 ---
 
 ## Requirements and Environment

@@ -1,5 +1,11 @@
 # AirQo Challange: Forecasting of Ugandan Air Quality
 
+---
+
+This repo is actively being worked on right now. Final models will be available on November 30th, 2022.
+
+---
+
 This challenge was posted on zindi.com with the goal of accurate daily air quality predictions for the general public. Find the challenge website [here](https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data)
 
 ## Collaborators

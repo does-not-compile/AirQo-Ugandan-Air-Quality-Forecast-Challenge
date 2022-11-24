@@ -1,21 +1,13 @@
 # AirQo Challange: Forecasting of Ugandan Air Quality
 
+This challenge was posted on zindi.com with the goal of accurate daily air quality predictions for the general public. Find the challenge website [here](https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data)
+
 ## Collaborators
 
 [Jess](https://github.com/JessFinn), [Matthias](https://github.com/NewFishMH), [Samer](https://github.com/samerzahra), [Sebastian](https://github.com/does-not-compile)
 
-## Link to Challenge
-
-[zindi.com](https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data)
-
-
-# Template Repo for ML Project
-
-This template repo will give you a good starting point for your second project. Besides the files used for creating a virtual environment, you will find a simple example of how to build a simple model in a python script. This is maybe the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
-
-The data used for this is: [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
-
 ---
+
 ## Requirements and Environment
 
 Requirements:

@@ -1,4 +1,10 @@
-# Link to Challenge
+# AirQo Challange: Forecasting of Ugandan Air Quality
+
+## Collaborators
+
+[Jess](https://github.com/JessFinn), [Matthias](https://github.com/NewFishMH), [Samer](https://github.com/samerzahra), [Sebastian](https://github.com/does-not-compile)
+
+## Link to Challenge
 
 [zindi.com](https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data)
 

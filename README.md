@@ -6,6 +6,11 @@ This repo is actively being worked on right now. Final models will be available 
 
 ---
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVPAMCwts=/?moveToViewport=-737,-284,1502,825&embedId=494327034552" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+---
+
+
 This challenge was posted on zindi.com with the goal of accurate daily air quality predictions for the general public. Find the challenge website [here](https://zindi.africa/competitions/airqo-ugandan-air-quality-forecast-challenge/data)
 
 ## Collaborators

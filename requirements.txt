@@ -1,4 +1,4 @@
-altair==4.1.0
+#altair==4.1.0
 jupyterlab==3.2.5
 ipywidgets==7.6.5
 matplotlib==3.5.1
@@ -7,5 +7,12 @@ pandas==1.3.5
 seaborn==0.11.2
 jupyterlab-dash==0.1.0a3
 scikit-learn==1.0.2
-statsmodels==0.13.1
-pytest==7.0.1
+#statsmodels==0.13.1
+#pytest==7.0.1
+tqdm
+missingno
+xgboost
+uvicorn
+fastapi
+typer
+streamlit

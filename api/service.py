@@ -20,6 +20,7 @@ class Request(BaseModel):
     }
     """
     # input fields needed for predictions
+    ID: str
     temperature: List[float]
     precipitation: List[float]
     rel_humidity: List[float]
@@ -53,21 +54,35 @@ def predict_air_quality(request: Request):
     """
     This function defines our air quality prediction endpoint
     """
-    # with open("ressources/model.bin", "rb") as model_in:
-    #     model = pickle.load(model_in)
+    with open("../models/model_final_1.p", "rb") as model_in:
+        model = pickle.load(model_in)
 
     # with open("ressources/encoder.bin", "rb") as encoder_in:
     #     encoder = pickle.load(encoder_in)
 
-    # # get data (json)
-    # df = pd.read_json(request.json(), lines=True)
+    # get data (json)
+    df = pd.read_json(request.json(), lines=True)
 
-    # # OHE columns of type object
+    # OHE columns of type object
     # df = encoder.transform(df)
 
-    # # predict salaries
-    # pred = model.predict(df)
-    pred = ["LUKE", "I AM YOUR PREDICTION!"]
+    # get daily means
+    df_daily_means = pd.read_csv('../data/train_daily_mean.csv')
+    features = df_daily_means.columns[2:]
+    df_daily_means = df_daily_means.pivot(index='ID', values=features, columns='day').reset_index()
+    df_daily_means = df_daily_means.drop('ID', axis=1, level=0)
+    df = pd.concat([df, df_daily_means], axis=1)
+
+    # extract locations and encode
+    loc_dummies = pd.get_dummies(df['location'], drop_first=True)
+    # add to feature matrix
+    df = pd.concat([df, loc_dummies], axis=1)
+    # drop location column
+    df = df.drop('location', axis=1)
+
+    # predict pm2.5
+    pred = model.predict(df)
+
     # # return predictions
     return Response(air_quality=pred)
 

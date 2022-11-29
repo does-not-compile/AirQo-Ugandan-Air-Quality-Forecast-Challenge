@@ -15,4 +15,4 @@ xgboost
 uvicorn
 fastapi
 typer
-streamlit
+yellowbrick

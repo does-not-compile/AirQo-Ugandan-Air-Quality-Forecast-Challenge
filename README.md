@@ -16,6 +16,7 @@ This challenge was posted on zindi.com with the goal of accurate daily air quali
 ## Link to Miro board 
 
 You can find it [here](https://miro.com/app/board/uXjVPAMCwts=/?share_link_id=634487499222)
+
 ---
 
 ## Requirements and Environment
